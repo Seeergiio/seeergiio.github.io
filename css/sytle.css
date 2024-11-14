@@ -7,7 +7,7 @@ body{
     height: 100vh;
 }
 .contenedor{
-    background-image: url("../imagenes/fondo-atleticodemadrid.jpg");
+    background-image: url("../imagenes/fondo-atleticodemadrid.webp");
     background-position: center center;
     background-repeat: repeat;
     background-size: contain;
@@ -16,6 +16,8 @@ body{
 header {
     padding: 10px 0;
 }
+
+
 .navegacion {
     position: fixed;
     width: 100%;
@@ -31,12 +33,19 @@ header {
     font-size: 15px;
     
 }
+.navegacion img{
+    padding-top: -120px;
+    
+}
+
+nav a{
+    margin-top: 20px;
+}
 .navegacion a:hover{
     color: #fd6a6a;
 }
 body{
     background-color: #100c14;
-    
 }
 .contenedor-nav{
     width: 33%;
@@ -62,9 +71,13 @@ font-size: 4.5rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
-.centrado{
+.centrado-sub{
     text-align: center;
     color: #fd6a6a;
+}
+h2{
+    text-align: center;
+    color: white;
 }
 
 @keyframes animate {
