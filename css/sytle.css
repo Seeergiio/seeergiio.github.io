@@ -1,6 +1,6 @@
 body{
-    margin: 0;
     font-family: "Poppins", sans-serif;
+    margin: 0;
 }
 .overlay-principal{
     background-color: rgba(0, 0, 0, 0.555) ; 
@@ -21,7 +21,7 @@ body{
     background-image: url("../imagenes/fondo-atleticodemadrid.webp");
     background-position: center center;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 20vh;
 }
 header {
     padding: 10px 0;
@@ -164,6 +164,47 @@ footer a{
     background-color: #121212;
 
 }
+.title-pag{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 80px;
+    margin: 0;
+}
+.enlaces-general{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.pag-enlace{
+    width: 100%;
+    margin-left: 50px;
+    background-color: #121212;
+    box-shadow: 0 4px 8px #fd6a6a85;
+    margin-top: 40px;
+    border-radius: 5%;
+    padding: 0;
+}
+.pag-enlace img{
+    width: 100%;
+    border-radius: 5%;
+    opacity: 0.7;
+}
+.pag-enlace:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.pag-enlace img:hover{
+    opacity: 1;
+}
+h3{
+    text-align: center;
+    color: white;
+    text-transform: uppercase   ;
+}
+
 @keyframes animate {
     0% {
       background-position: -500%;
