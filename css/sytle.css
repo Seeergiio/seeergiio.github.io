@@ -159,7 +159,7 @@ footer p:hover{
 .fa-facebook:hover,
 .fa-instagram:hover,
 .fa-youtube-play:hover{
-    color: #000;
+    color: #fd6a6a;
     border: 1px solid #ffffff;
     background-color: #ffffff;
     padding: 20px;
@@ -186,13 +186,7 @@ footer a{
     margin: 0 auto;
     padding-bottom: 15px;
 }
-.fa-map-marker,
-.fa-phone,
-.fa-envelope,
-.fa-paperclip{
-    margin-right: 15px;
-    color: #fd6a6a;
-}
+
 .contenedor-enlaces{
     background-color: #121212;
 
@@ -306,12 +300,9 @@ h3{
     top: 310px;
 }
 
-.video-historia{
-    padding-top: 50px;
-    width: 40%;
-    margin: 0 auto;
+footer h2 {
+    margin-bottom: 20px;
 }
-
 
 
 @keyframes animate {
