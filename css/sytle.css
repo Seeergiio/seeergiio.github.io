@@ -248,12 +248,13 @@ h3{
 
 .noticia{
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 40px; 
     border-radius: 5%;
     box-shadow: 0px -1px 17px -4px #fd6a6a;
     width: 22%;
     height: 412px;
 }
+
 .noticia:nth-of-type(1){
     background-image:  url("../imagenes/atm-vs-celta.webp");
 }
@@ -290,10 +291,10 @@ h3{
     width: 50%;
     padding: 20px;
     margin: 10px;
-    background-color: #f94c4cec;
+    background-color: #FC5F5F;
     border-radius: 10px;
-    color: white;
     font-size: 12px;
+    color: white;
     margin-left: 50px; 
 }
 .noticia:nth-of-type(2) p,.noticia:nth-of-type(3) p,.noticia:nth-of-type(4) p{
@@ -302,6 +303,11 @@ h3{
 
 footer h2 {
     margin-bottom: 20px;
+}
+
+
+a:hover svg path {
+  fill: #fd6a6a; 
 }
 
 
